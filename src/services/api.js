@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api";
+const BASE_URL = "https://spotify-backend-3lah.onrender.com";
 
 // ── Songs ──────────────────────────────────────────────────────────────────
 export const getAllSongs    = ()         => axios.get(`${BASE_URL}/songs`);
