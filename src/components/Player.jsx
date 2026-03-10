@@ -32,7 +32,7 @@ export default function Player({ song, songs, onSongChange, likedSongs, onToggle
       setPlay(true);
       setCurrentTime(0);
     }
-  }, [song]);
+  }, [setPlay]);
 
   const handlePlayPause = () => {
     if (!audioRef.current) return;

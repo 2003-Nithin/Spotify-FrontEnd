@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 export default function SongCard({ song, onPlay, isPlaying, likedSongs, onToggleLike }) {
-  const isLiked = likedSongs?.some((s) => s.id === song.id);
+ // const isLiked = likedSongs?.some((s) => s.id === song.id);
 
   const imgSrc =
     song.imageUrl?.startsWith("http")
